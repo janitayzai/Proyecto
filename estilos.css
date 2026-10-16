@@ -1,0 +1,54 @@
+header {
+    background-color: #248554;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2 {
+    background-color: #76b88f;
+    color: blanchedalmond;
+    text-align: center;
+    margin:0;
+    padding: 12px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body {
+    margin:0;
+    padding:0%;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav {
+    text-align: center;
+    background-color: #7aa5ca;
+    padding-bottom: 20px;
+    margin: 0;
+}
+.card {
+    background-color: #a6cfb6;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 15px;
+    border: #000000;
+}
+footer {
+    color: aliceblue;
+    background-color: #248554;
+    text-align: center;
+    padding: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+article ul li {
+    background-color: #9ee29c;
+    font-size: 22px;
+    margin: 0;
+    padding: 10px;
+}
+article ul {
+    background-color: #9ee29c;
+    margin: 0;
+}
