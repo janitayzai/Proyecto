@@ -1,0 +1,154 @@
+/* ==========================================
+   Estilos Generales
+   ========================================== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #2b2d42;
+    line-height: 1.6;
+}
+
+/* ==========================================
+   Encabezado (Header)
+   ========================================== */
+/* ==========================================
+   Encabezado (Header)
+   ========================================== */
+header {
+    background-color: #0b4f6c;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;          /* Reduce el espacio vertical */
+    border: none;           /* Quita bordes si los hay */
+}
+
+header h1 {
+    color: #ffffff;
+    margin: 0 0 5px 0;      /* Espacio mínimo abajo del título */
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+header p, header h3 {
+    color: #ffffff;
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+/* ==========================================
+   Navegación (Nav)
+   ========================================== */
+nav {
+    background-color: #00a896;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 5px 12px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #e0f6f6;
+}
+
+/* ==========================================
+   Contenido Principal y Tarjetas
+   ========================================== */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card, section {
+    background-color: #ffffff;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border-left: 5px solid #028090;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #0b4f6c;
+}
+
+h2 {
+    font-size: 1.6rem;
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #e2e8f0;
+    padding-bottom: 4px;
+}
+
+p {
+    font-size: 1rem;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+/* ==========================================
+   Imágenes y Figuras
+   ========================================== */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    display: block;
+    margin: 15px auto;
+}
+
+figure {
+    margin: 15px 0;
+    text-align: center;
+}
+
+figcaption {
+    font-size: 0.85rem;
+    color: #5c6b73;
+    margin-top: 6px;
+    font-style: italic;
+}
+
+/* ==========================================
+   Pie de Página (Footer)
+   ========================================== */
+footer {
+    background-color: #0b4f6c;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+footer p {
+    color: #ffffff;
+    margin: 0;
+    font-size: 0.95rem;
+}
